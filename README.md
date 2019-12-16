@@ -6,7 +6,7 @@ First, clone the repository
 git clone git@github.com:Awkan/dotfiles.git repo ~/dotfiles
 ```
 
-Then create symbolic links
+Then launch install
 ```bash
-for f in $(ls -1 ~/dot-files); do ln -fs ~/dot-files/$f ~/.$f; done
+./dotfiles/setup.sh
 ```
