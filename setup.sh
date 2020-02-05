@@ -13,3 +13,10 @@ do
     echo "Link ~/dotfiles/symlinks/$f";
     ln -fs ~/dotfiles/symlinks/$f ~/.$f;
 done
+
+# Clean installs
+echo "\e[32m"
+echo "Clean installs"
+echo "=============="
+echo "\e[97m"
+sudo apt autoremove -y
