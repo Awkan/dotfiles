@@ -1,4 +1,11 @@
 echo "\e[32m"
+echo "Updating system"
+echo "==============="
+echo "\e[97m"
+sudo apt-get update
+sudo apt-get upgrade
+
+echo "\e[32m"
 echo "Install scripts"
 echo "==============="
 echo "\e[97m"
