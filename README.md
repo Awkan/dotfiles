@@ -1,12 +1,29 @@
-# Installation
+# My personnal Dotfiles
 
-First, clone the repository
+## Packages & programs Installation 
 
+If this is your first installation of this dotfiles, be sure to got the right packages & programs.
+
+In order to make automatic check and install missing packages / programs, you may run : 
 ```bash
-git clone git@github.com:Awkan/dotfiles.git repo ~/dotfiles
+./initial_install.sh
 ```
 
-Then launch install
+## Config Installation
+
+First, create configuration files
 ```bash
-./dotfiles/setup.sh
+cp install_config.dist install_config
 ```
+
+Then check that the following files are well configured for your workspace : 
+- `env`
+- `install_config`
+
+Now let's install configuration
+
+The config installation is automatic thanks to install script. Then run it :
+```bash
+./install.sh
+```
+

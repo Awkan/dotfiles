@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# personnal variables - this file need to be copied as install_config and the variables need to be replaced 
+# you might need to change variables in env files as well
+
+# Git user and email to set up git automatically
+# GIT_USER=""
+# GIT_EMAIL=""
+

@@ -1,4 +1,5 @@
-echo "\n \e[32m Docker \e[97m \n"
+echo -e ""
+echo -e "${blue} Install docker ...${default}"
 
 # SETTING UP REPOSITORY
 # =====================
@@ -38,4 +39,6 @@ sudo usermod -aG docker $USER
 # CHECK INSTALLATION
 # ==================
 docker run hello-world
+
+echo -e "${green} ...Done${default}"
 
