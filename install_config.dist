@@ -4,6 +4,6 @@
 # you might need to change variables in env files as well
 
 # Git user and email to set up git automatically
-# GIT_USER=""
 # GIT_EMAIL=""
+# GIT_USER=""
 
