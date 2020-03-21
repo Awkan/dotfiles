@@ -10,13 +10,38 @@ augroup vimrc
   autocmd!
 augroup END
 
+" +----------------+
+" | install plugin |
+" +----------------+
 
+call plug#begin('~/.config/nvim/plugged')
+
+" Nerdtree
+Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind']}
+
+call plug#end()
+
+" +---------------+
+" | plugin config |
+" +---------------+
+
+" source every plugin configs
+for file in split(glob("~/.config/nvim/pluggedconf/*.nvimrc"), '\n')
+    exe 'source' file
+endfor
 
 " +-----------------+
 " | general binding |
 " +-----------------+
 
 syntax on
+
+" Weird hack for NERDTree to work
+let mapleader = "\\"
+map , <leader>
+
+" Toggle between absolute -> relative line number
+nnoremap <C-n> :let [&nu, &rnu] = [&nu, &nu+&rnu==1]<CR>
 
 " +----------------+
 " | general config |
@@ -26,12 +51,12 @@ syntax on
 " color hypnos
 
 " set the directory where the swap file will be saved
-set backupdir=~/nvim/backup//
-set directory=~/nvim/swap//
+set backupdir=~/.config/nvim/backup//
+set directory=~/.config/nvim/swap//
 
 " save undo trees in files
 set undofile
-set undodir=~/nvim/undo//
+set undodir=~/.config/nvim/undo//
 
 " set line number
 " set number
