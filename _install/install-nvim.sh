@@ -21,12 +21,16 @@ mkdir -p $HOME/.config/nvim/backup
 mkdir -p $HOME/.config/nvim/plugged
 mkdir -p $HOME/.config/nvim/swap
 mkdir -p $HOME/.config/nvim/undo
-
-# configuration of different plugins
-ln -sf $DOTFILES/nvim/pluggedconf/ $HOME/.config/nvim/pluggedconf
+mkdir -p $HOME/.config/nvim/UltiSnips
 
 # see :help autoload
 ln -sf $DOTFILES/nvim/autoload/* $HOME/.config/nvim/autoload/
+
+# configuration of different plugins
+ln -sf $DOTFILES/nvim/pluggedconf/ $HOME/.config/nvim/pluggedconf/
+
+# snippets
+ln -sf $DOTFILES/nvim/UltiSnips/* $HOME/.config/nvim/UltiSnips/
 
 echo -e "${green} ...Done${default}"
 
