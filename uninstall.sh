@@ -4,6 +4,8 @@ echo -e "${red}Delete the actual config ...${default}"
 echo -e ""
 echo -e "${light_red}Delete the neovim config ...${default}"
 rm $HOME/.config/nvim/autoload/* &>/dev/null
+rm -Rf $HOME/.config/nvim/pluggedconf &>/dev/null
+rm $HOME/.config/nvim/UltiSnips/* &>/dev/null
 echo -e "${green}...Done${default}"
 
 echo -e ""
