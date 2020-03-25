@@ -32,5 +32,8 @@ ln -sf $DOTFILES/nvim/pluggedconf/ $HOME/.config/nvim/pluggedconf
 # snippets
 ln -sf $DOTFILES/nvim/UltiSnips/* $HOME/.config/nvim/UltiSnips/
 
+# see :help ftplugin
+ln -sf $DOTFILES/nvim/ftplugin/ $HOME/.config/nvim/ftplugin
+
 echo -e "${green} ...Done${default}"
 

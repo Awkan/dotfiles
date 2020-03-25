@@ -32,5 +32,9 @@ echo "Create symlink for gitconfig and global gitignore..."
 ln -s -f $DOTFILES/git/gitconfig $HOME/.gitconfig
 ln -s -f $DOTFILES/git/gitignore $HOME/.gitignore
 
+echo "Set the global hooks - the hooks will be created each time a project is cloned"
+
+git config --global init.templatedir "$DOTFILES/git/templates"
+
 echo -e "${green}...Done${default}"
 
