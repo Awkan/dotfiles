@@ -7,6 +7,7 @@ sudo apt install -y \
     curl \
     git \
     gnupg-agent \
+    ripgrep \
     software-properties-common \
     tmate \
     tmux \
