@@ -17,6 +17,8 @@ nmap <leader>n :call NERDTreeToggleInCurDir()<CR>
 
 " don't display informations (type ? for help and so on)
 let g:NERDTreeMinimalUI = 1
+" show hidden files
+let g:NERDTreeShowHidden = 1
 " don't replace the native vim file explorer
 let g:NERDTreeHijackNetrw = 1
 let g:NERDTreeChDirMode = 2
