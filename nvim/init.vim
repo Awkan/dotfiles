@@ -37,9 +37,9 @@ Plug 'henrik/vim-indexed-search'
 " Wrapper for git and display git diff in the left gutter
 Plug 'tpope/vim-fugitive' | Plug 'mhinz/vim-signify'
 " Figitive for the hub
-Plug 'tpope/vim-rhubarb'
+" Plug 'tpope/vim-rhubarb'
 " Display commits for project / file
-Plug 'junegunn/gv.vim'
+" Plug 'junegunn/gv.vim'
 
 " LANGAGE - MARKDOWN
 " ------------------
@@ -48,7 +48,7 @@ Plug 'junegunn/limelight.vim', {'for': 'markdown'} " Hyperfocus-writing
 Plug 'rhysd/vim-grammarous', {'for': 'markdown'} " show grammar mistakes
 " LANGAGE - CSV
 " -------------
-Plug 'chrisbra/csv.vim'
+" Plug 'chrisbra/csv.vim'
 " LANGAGE - NGINX
 " ---------------
 Plug 'chr4/nginx.vim'
@@ -68,9 +68,9 @@ Plug 'lumiliet/vim-twig', {'for': 'twig'}
 Plug 'ap/vim-css-color' " Display the hexa colors (e.g. CSS)
 " LANGAGE - JAVASCRIPT
 " --------------------
-Plug 'pangloss/vim-javascript'
-Plug 'maxmellon/vim-jsx-pretty' " JSX
-Plug 'posva/vim-vue' " Vue
+" Plug 'pangloss/vim-javascript'
+" Plug 'maxmellon/vim-jsx-pretty' " JSX
+" Plug 'posva/vim-vue' " Vue
 
 " DISPLAY
 " -------
