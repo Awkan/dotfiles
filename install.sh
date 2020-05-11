@@ -47,6 +47,8 @@ fi
 . $DOTFILES/uninstall.sh
 
 # Install
+. $DOTFILES/_install/install-xorg-server.sh
+
 command -v "git" >/dev/null && . $DOTFILES/_install/install-git.sh
 command -v "nvim" >/dev/null && . $DOTFILES/_install/install-nvim.sh
 # TODO : Remove vim usage

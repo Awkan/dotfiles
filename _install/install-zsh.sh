@@ -1,12 +1,15 @@
 echo -e ""
 echo -e "${blue} Install oh-my-zsh config ...${default}"
 
+# Install oh-my-zsh
+# TODO: Check GitHub ssh key existence
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+
 ZSH_CUSTOM=$HOME/.oh-my-zsh/custom
 ZSH_CUSTOM_PLUGINS=$ZSH_CUSTOM/plugins
 ZSH_CUSTOM_THEMES=$ZSH_CUSTOM/themes
 ZSH_CUSTOM_THEME_SPACESHIP=$ZSH_CUSTOM_THEMES/spaceship-prompt
 ZSH_CUSTOM_THEME_SPACESHIP_SYMLINK=$ZSH_CUSTOM_THEMES/spaceship.zsh-theme
-
 
 # THEMES
 # ======
