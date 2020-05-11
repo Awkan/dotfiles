@@ -48,7 +48,8 @@ fi
 
 # Install
 command -v "git" >/dev/null && . $DOTFILES/_install/install-git.sh
-. $DOTFILES/_install/install-nvim.sh
-. $DOTFILES/_install/install-vim.sh
+command -v "nvim" >/dev/null && . $DOTFILES/_install/install-nvim.sh
+# TODO : Remove vim usage
+command -v "vim" >/dev/null && . $DOTFILES/_install/install-vim.sh
 command -v "zsh" >/dev/null && . $DOTFILES/_install/install-zsh.sh
 

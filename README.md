@@ -1,5 +1,7 @@
 # My personnal Dotfiles
 
+Based on [Phantas0s dotfiles](https://github.com/Phantas0s/.dotfiles) architecture.
+
 ## Packages & programs Installation 
 
 If this is your first installation of this dotfiles, be sure to got the right packages & programs.
