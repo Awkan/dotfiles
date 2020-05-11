@@ -47,6 +47,7 @@ fi
 . $DOTFILES/uninstall.sh
 
 # Install
+. $DOTFILES/_install/install-fonts.sh
 . $DOTFILES/_install/install-xorg-server.sh
 
 command -v "git" >/dev/null && . $DOTFILES/_install/install-git.sh
