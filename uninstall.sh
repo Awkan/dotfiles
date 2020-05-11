@@ -9,6 +9,12 @@ rm $HOME/.config/nvim/UltiSnips/* &>/dev/null
 echo -e "${green}...Done${default}"
 
 echo -e ""
+echo -e "${light_red}Delete the urxvt config ...${default}"
+rm $HOME/.Xdefaults &>/dev/null
+rm $HOME/.dircolors
+echo -e "${green}...Done${default}"
+
+echo -e ""
 echo -e "${light_red}Delete the vim config ...${default}"
 rm $HOME/.vimrc &>/dev/null
 echo -e "${green}...Done${default}"

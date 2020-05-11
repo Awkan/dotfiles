@@ -1,5 +1,6 @@
-echo -e ""
-echo -e "${blue} Install oh-my-zsh config ...${default}"
+#!/bin/bash
+
+echo -e "${blue} Install zsh (with oh-my-zsh) config...${default}"
 
 # Install oh-my-zsh
 # TODO: Check GitHub ssh key existence

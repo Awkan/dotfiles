@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo -e ""
 echo -e "${blue} Installing git config ...${default}"
 
 rm $DOTFILES/git/gitconfig >/dev/null
