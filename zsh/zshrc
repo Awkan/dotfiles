@@ -4,3 +4,9 @@ for file in `ls $HOME/.zshrc.d/*.zshrc`;
 do
   source $file
 done
+
+if [[ "$(tty)" = "/dev/tty1" ]];
+then
+    pgrep i3 || exec ssh-agent startx
+fi
+
