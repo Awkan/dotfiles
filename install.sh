@@ -51,6 +51,7 @@ fi
 . $DOTFILES/_install/install-xorg-server.sh
 
 command -v "composer" >/dev/null && . $DOTFILES/_install/install-composer.sh
+command -v "dunst" >/dev/null && . $DOTFILES/_install/install-dunst.sh
 command -v "i3" >/dev/null && . $DOTFILES/_install/install-i3.sh
 command -v "git" >/dev/null && . $DOTFILES/_install/install-git.sh
 command -v "nvim" >/dev/null && . $DOTFILES/_install/install-nvim.sh

@@ -7,6 +7,11 @@ rm $COMPOSER_HOME/composer.json &>/dev/null
 echo -e "${green}...Done${default}"
 
 echo -e ""
+echo -e "${light_red}Delete the dunst config...${default}"
+rm $HOME/.dunstrc &>/dev/null
+echo -e "${green}...Done${default}"
+
+echo -e ""
 echo -e "${light_red}Delete the i3 config...${default}"
 rm -Rf $HOME/.config/i3 &>/dev/null
 rm -Rf $HOME/.i3 &>/dev/null
