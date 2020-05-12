@@ -4,5 +4,8 @@ urxvtd -o -q -f
 # merge .Xressources file
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 
+# set the keyboard lang
+setxkbmap -layout fr
+
 exec i3
 
