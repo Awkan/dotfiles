@@ -219,6 +219,7 @@ assign [class="Chromium" instance="chromium"] → $web
 assign [class="mpv" instance="gl"] → $multimedia
 assign [instance="nomacs"] → $multimedia
 assign [class="Easytag" instance="easytag"] → $multimedia
+for_window [class="Spotify"] move to workspace $multimedia
 
 assign [class="Thunderbird" instance="Mail"] → $mail
 
@@ -270,7 +271,7 @@ for_window [class="Gcolor2"] floating enable
 for_window [instance="gnome-alsamixer" class="Gnome-alsamixer"] floating enable
 
 # configuration of some software
-for_window [class="URxvt*"] border pixel 1
+for_window [class="^.*"] border pixel 1
 
 # start softwares and command lines in workspaces
 exec --no-startup-id i3-msg workspace $terms; exec /usr/bin/urxvtc
