@@ -8,4 +8,23 @@ export DOTFILES="$HOME/.dotfiles"
 
 export EDITOR="nvim"
 export VISUAL="nvim"
+#export VIMCONFIG="$HOME/nvim"
+
+export XDG_CONFIG_HOME="$HOME"
+export TERM="rxvt-256color"
+
+export COMPOSER_HOME="$HOME/composer"
+# export TMUX_CONFIGDIR="$HOME/.tmuxp"
+
+# PATH for composer global install
+PATH="$HOME/composer/vendor/bin:$PATH"
+
+# # Install of global npm packages
+# export NPMPATH="$HOME/.node_modules"
+# export NPMBIN="$HOME/.node_modules/bin"
+# PATH="$NPMBIN:$PATH"
+# export npm_config_prefix=~/.node_modules
+
+# Override ls colors
+eval "$(dircolors -b ~/.dircolors)"
 
