@@ -4,6 +4,8 @@ DISABLE_AUTO_UPDATE=true
 
 export VISUAL=vim
 export EDITOR=$VISUAL
+export FIXUID=$(id -u)
+export FIXGID=$(id -g)
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -11,6 +13,7 @@ export EDITOR=$VISUAL
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  docker-compose
   git
   history
   history-substring-search
