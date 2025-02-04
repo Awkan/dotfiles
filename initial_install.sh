@@ -29,6 +29,7 @@ echo -e "${green} ...Done${default}"
 
 echo -e "${blue}Install packages / programs ...${default}"
 . ./$DOTFILES/_init/basic_packages.sh
+. ./$DOTFILES/_init/bruno.sh
 . ./$DOTFILES/_init/docker.sh
 . ./$DOTFILES/_init/zsh.sh
 echo -e "${green} ...Done${default}"
