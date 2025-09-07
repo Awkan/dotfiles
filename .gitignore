@@ -1,3 +1,7 @@
 install_config
 
 git/gitconfig
+
+# Package files to ignore
+# They may contains specific data too specific to be versionned
+zsh/zshrc.d/03-aliases-custom.zshrc
