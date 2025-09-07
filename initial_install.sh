@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. ./colors
+source ./colors.sh
 
 ################
 # Presentation #
@@ -28,10 +28,12 @@ echo -e "${green} ...Done${default}"
 
 
 echo -e "${blue}Install packages / programs ...${default}"
-. ./$DOTFILES/_init/basic_packages.sh
-. ./$DOTFILES/_init/bruno.sh
-. ./$DOTFILES/_init/docker.sh
-. ./$DOTFILES/_init/zsh.sh
+source ./$DOTFILES/_init/basic_packages.sh
+source ./$DOTFILES/_init/bitwarden.sh
+source ./$DOTFILES/_init/bruno.sh
+source ./$DOTFILES/_init/docker.sh
+source ./$DOTFILES/_init/nvim.sh
+source ./$DOTFILES/_init/zsh.sh
 echo -e "${green} ...Done${default}"
 
 echo -e "${blue}Update system ...${default}"

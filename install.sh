@@ -11,9 +11,10 @@ then
     cp ./install_config.dist ./install_config
 fi
 
-. ./env
-. ./install_config
-. $DOTFILES/colors
+source ./env
+source ./install_config
+source ./colors.sh
+source ./zsh/zshrc.d/01-exports.zshrc
 
 ################
 # Presentation #

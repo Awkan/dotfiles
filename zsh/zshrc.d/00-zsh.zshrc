@@ -27,3 +27,4 @@ autoload -U compinit && compinit
 
 chmod +x $ZSH/oh-my-zsh.sh
 source $ZSH/oh-my-zsh.sh
+

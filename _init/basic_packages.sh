@@ -5,14 +5,18 @@ sudo apt install -y \
     apt-transport-https \
     ca-certificates \
     curl \
+    flameshot \
     git \
     gnupg-agent \
+    keychain \
     ripgrep \
+#    rxvt-unicode \
     software-properties-common \
     tmate \
     tmux \
     vim \
-    wget
+    wget \
+    wclip
 
 echo -e "${green} ...Done${default}"
 

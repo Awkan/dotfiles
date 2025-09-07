@@ -32,5 +32,6 @@ ln -sf $DOTFILES/nvim/pluggedconf/ $HOME/.config/nvim/pluggedconf
 # snippets
 ln -sf $DOTFILES/nvim/UltiSnips/* $HOME/.config/nvim/UltiSnips/
 
+echo -e "${yellow}Do not forget to launch \`:PlugInstall\` on Neovim to install plugins${default}"
 echo -e "${green} ...Done${default}"
 
