@@ -9,6 +9,7 @@ sudo apt install -y \
     git \
     gnupg-agent \
     keychain \
+    make \
     ripgrep \
 #    rxvt-unicode \
     software-properties-common \
