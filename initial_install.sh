@@ -31,6 +31,7 @@ echo -e "${blue}Install packages / programs ...${default}"
 source ./$DOTFILES/_init/basic_packages.sh
 source ./$DOTFILES/_init/bitwarden.sh
 source ./$DOTFILES/_init/bruno.sh
+source ./$DOTFILES/_init/discord.sh
 source ./$DOTFILES/_init/docker.sh
 source ./$DOTFILES/_init/nvim.sh
 source ./$DOTFILES/_init/zsh.sh
