@@ -11,3 +11,5 @@ sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
 # Clear downloaded tar file
 rm nvim-linux-x86_64.tar.gz
 
+echo -e "${green} ...Done${default}"
+
