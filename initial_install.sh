@@ -34,6 +34,7 @@ source ./$DOTFILES/_init/bruno.sh
 source ./$DOTFILES/_init/discord.sh
 source ./$DOTFILES/_init/docker.sh
 source ./$DOTFILES/_init/ngrok.sh
+source ./$DOTFILES/_init/npm.sh
 source ./$DOTFILES/_init/nvim.sh
 source ./$DOTFILES/_init/spotify.sh
 source ./$DOTFILES/_init/zsh.sh
