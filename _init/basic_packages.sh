@@ -10,6 +10,7 @@ sudo apt install -y \
     gnupg-agent \
     keychain \
     make \
+    maven \
     ripgrep \
 #    rxvt-unicode \
     software-properties-common \
@@ -18,6 +19,11 @@ sudo apt install -y \
     vim \
     wget \
     wclip
+
+# Some more specific packages : PDF oriented
+sudo apt install -y \
+    pdftk \
+    poppler-utils
 
 echo -e "${green} ...Done${default}"
 
